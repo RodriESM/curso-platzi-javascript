@@ -1,0 +1,37 @@
+*{
+    background: lightcyan;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 3px;
+    background: linear-gradient(to top, lightblue, lightcyan);
+    float: none;
+    box-shadow:  0px 0px 10px #000;
+    width: 30%;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.item{
+    padding: 2px;
+    background: fixed;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+.item :nth-child(1n) {
+    background: lightblue;
+    
+}
+.item b:nth-child(1n) {
+    background: lightblue;
+    
+}
+.item :nth-child(1) {
+    background: lightcyan
+    
+}
