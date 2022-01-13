@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+    <style>
+        .container{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(219, 251, 130);
+            position: relative;
+            top: 20px;
+        }
+        .item{
+            width: 20px;
+            height: 20px;
+            background-color: rgb(219, 251, 130);
+            position: absolute;
+            top: 20px;
+        }
+        nav{
+            width: 100%;
+            height: 50px;
+            background: lightcyan;
+            /*Se queda estático donde le dijimos*/
+            position: fixed;
+        }
+        ul p{
+            /*Nos permite dejar el título arriba del todo*/
+            top: 0;
+            position: sticky;
+        }
+    </style>
+</head>
+<body>
+    <nav></nav>
+
+    <div class="container">
+        <div class="item"></div>
+    </div>
+    
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper ante feugiat vestibulum interdum. Donec eget pretium metus. Duis viverra blandit tristique. Nunc mattis nisi et dolor mattis, congue molestie mauris sodales. Etiam eu quam a tortor luctus posuere non et sem. Nulla arcu nisl, imperdiet at porta nec, facilisis a tellus. Aliquam pulvinar urna nec sem consectetur, pulvinar suscipit sem maximus. Nam velit felis, luctus vitae justo id, laoreet viverra tortor. Curabitur semper felis vitae justo mattis lacinia. Donec molestie venenatis arcu nec ultricies. Donec efficitur molestie velit vel lobortis.
+
+Suspendisse vel dui vitae ante vehicula tempor. Proin quis purus vel eros varius eleifend id placerat libero. In quis elit orci. Proin dignissim aliquet nibh, rutrum sodales nisi tincidunt sit amet. Nam quis orci maximus, efficitur eros at, laoreet elit. Vestibulum lacinia dui ut libero dignissim aliquet. Aenean iaculis id nulla nec volutpat. Ut auctor consectetur libero a vehicula. Sed quis consectetur sapien. Maecenas ultricies convallis risus sed malesuada. Curabitur non lorem id erat feugiat tempus. Integer nisl ex, laoreet dictum volutpat dictum, rutrum et magna.
+
+Aliquam ante nulla, fermentum at turpis congue, tristique lacinia risus. Nullam accumsan vestibulum turpis sit amet sollicitudin. Aenean porta tellus nec lacus imperdiet vulputate. Nulla pretium commodo mi, at viverra velit. Aliquam id mauris vitae felis dapibus condimentum non id elit. Sed aliquet, ipsum et efficitur bibendum, mi est dictum urna, sed aliquet velit felis quis nulla. Duis lobortis in leo a aliquam. Donec a dui tempus, tristique erat a, tempus elit. Curabitur viverra gravida nisl vel vestibulum. Phasellus id porttitor leo. Mauris tristique erat velit, et rhoncus urna semper ac. Proin tristique mauris ut enim luctus dignissim. Curabitur ultrices pulvinar odio, eu tempus orci vehicula ac.
+
+Vestibulum sit amet dolor sed neque eleifend cursus. Mauris ut augue id ex placerat faucibus. In luctus est ornare elit scelerisque tempor. Aliquam in pretium nisi. Donec tincidunt mauris vel sapien sodales consequat. Nam fermentum lobortis enim sollicitudin facilisis. Suspendisse condimentum mi efficitur velit imperdiet, ut molestie magna molestie. Nulla in tortor diam. Nulla ullamcorper rutrum libero a mollis. Pellentesque sed luctus enim.
+
+Vestibulum consequat eu tellus eu sagittis. Suspendisse potenti. Duis lacus quam, aliquet at luctus id, malesuada sed lectus. Sed pharetra elit eget nibh luctus imperdiet. Ut posuere neque a erat lacinia tempor. Praesent nec arcu ultricies nibh pulvinar lobortis. Morbi semper justo id dolor rhoncus tristique. Morbi quis fermentum eros. Etiam scelerisque, mauris venenatis varius hendrerit, nisl ex laoreet odio, ut mattis felis neque et sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ultrices quam ut quam posuere, in sagittis libero placerat. Suspendisse porta magna ut nisl pulvinar consequat. Nullam sed lectus non eros tristique imperdiet. Suspendisse finibus convallis risus et cursus. Mauris venenatis quam sit amet velit pulvinar, eu tincidunt sem accumsan. Morbi semper ligula sed metus iaculis ullamcorper.
+    </p>
+    <ul>
+        <p>Frutas</p>
+        <li>Manzanas</li>
+        <li>Peras</li>
+        <li>Naranjas</li>
+    </ul>
+    <ul>
+        <p>Coches</p>
+        <li>Ford</li>
+        <li>Mazda</li>
+        <li>Seat</li>
+    </ul>
+    <ul>
+        <p>Componentes</p>
+        <li>Procesador</li>
+        <li>Memoria RAM</li>
+        <li>Disco duro</li>
+    </ul>
+</body>
+</html>

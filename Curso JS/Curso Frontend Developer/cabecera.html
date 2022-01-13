@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <title>Nav</title>
+    <style>
+        .texto-de-prueba{
+            margin-top: 60px;
+            width: 50%;
+        }
+
+        header{
+            width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+            left: 0; /* Posicionamos la cabecera al lado izquierdo */
+            top: 0; /* Posicionamos la cabecera pegada arriba */
+            position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+        }
+      
+    .menuCSS3 ul {
+        width: 100%;
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+    .menuCSS3 ul li{
+        width: 100%;
+        display: block;
+        float: left;
+    }
+	.menuCSS3 a {
+		display: block;
+		padding: 1em;
+		background-color:lightblue;
+		text-decoration: none;
+		color: #191C26;
+	}
+	.menuCSS3 a:hover {
+		background-color: lightcyan;
+	}
+    
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav class="menuCSS3">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">¿Quienes somos?</a>
+                    <ul>
+                        <li><a href="#">Juan</a></li>
+                        <li><a href="#">Paco</a></li>
+                        <li><a href="#">Ramón</a></li>
+                        <li><a href="#">María</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contacto</a>
+                    <ul>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Mapa</a></li>
+                    </ul>
+    
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="texto-de-prueba">
+        Lorem Ipsum
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tempus sapien. Proin eu tellus eu eros pretium blandit in at mi. Nullam sagittis, elit a bibendum dictum, leo massa dictum massa, vitae eleifend diam nisi in tellus. Donec vel volutpat nibh. Donec varius turpis ante, nec consectetur mi gravida vel. Aenean vestibulum ligula ac massa volutpat vestibulum. Proin et sollicitudin nisi, rhoncus consectetur magna. Quisque volutpat dapibus est vitae pellentesque. Suspendisse euismod sit amet tellus sed faucibus. Nunc in facilisis purus. Maecenas at posuere odio. Suspendisse facilisis porttitor nisl vel sollicitudin.
+
+Nullam blandit semper dui eget gravida. Ut mattis nisl non elit aliquet sagittis. Nam eu venenatis lectus. Fusce non dictum nunc, vel rutrum tortor. Nunc viverra turpis in facilisis elementum. Nunc ipsum dolor, cursus nec tellus ac, eleifend laoreet odio. Proin a sagittis dui, eu sollicitudin tortor. Nulla facilisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et pellentesque diam. Aliquam id justo et libero rhoncus maximus. Morbi quis tellus et nulla finibus porttitor vel sed ligula. Pellentesque congue eros felis, quis suscipit dui sagittis et. Aenean ante mauris, ornare in mattis quis, mattis non lorem. Nullam non tristique orci, a luctus ex.
+
+Nulla placerat diam ac nunc ullamcorper, ut luctus lectus efficitur. Praesent erat elit, tempus id ornare vel, porttitor et turpis. Cras id nibh eget urna sagittis aliquam sit amet euismod odio. Curabitur eget purus eget nunc placerat consequat in eget ligula. Nunc vestibulum tellus in risus semper consectetur. Proin lobortis sit amet magna vel varius. Aliquam elementum dui est, id iaculis purus sagittis sit amet. Integer eu est nec diam congue pulvinar.
+
+Morbi vitae mi augue. Pellentesque sit amet commodo neque, id suscipit mi. Vestibulum eget lacus eros. Vestibulum ac sapien ac odio scelerisque finibus eu eu justo. Nullam euismod vehicula malesuada. Maecenas ultricies purus ut turpis bibendum euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean rhoncus vulputate ex nec elementum. Nunc neque leo, pulvinar sodales porta sit amet, porttitor et ligula.
+
+Etiam lorem leo, ornare non tristique vel, auctor non est. Nunc tempor gravida dolor, quis malesuada nulla faucibus ut. Aenean tristique sed enim gravida consequat. Nullam augue ipsum, gravida in erat nec, eleifend ullamcorper dui. Nullam ac laoreet odio, in feugiat eros. Mauris convallis sapien mi, vel finibus enim sodales in. Aenean lacinia in ex nec dictum. Suspendisse vitae aliquam odio. Fusce quis tellus sed ante euismod tincidunt at vitae eros. Pellentesque nisl risus, imperdiet vitae porta et, tristique non risus. Integer nulla nisi, egestas sit amet sagittis eget, lobortis id magna. In lacus quam, iaculis at augue ut, fermentum auctor diam. Nunc posuere lectus nec enim varius sollicitudin quis id nunc. Donec sed bibendum ligula, id lobortis purus.
+
+Aenean massa orci, commodo ut odio nec, fringilla dictum dolor. Nullam sit amet tincidunt orci. Quisque vel arcu tempor, sollicitudin erat sit amet, mattis nisl. Morbi porttitor neque odio, non aliquam ex lobortis non. Nunc vestibulum sodales elementum. Ut sed sapien at justo semper dictum. Ut tempor, ligula non tincidunt dignissim, magna quam congue lorem, nec sodales justo justo vitae elit. Vivamus in turpis euismod, laoreet ex in, aliquet lacus. Nunc consectetur id massa finibus placerat. Mauris varius, lacus faucibus tincidunt lacinia, sapien purus ultrices dolor, a eleifend massa lectus ut erat. Cras tristique sapien orci, sit amet rutrum purus tristique sit amet. Curabitur ut ligula nisl.
+
+Sed luctus magna tortor, vitae pellentesque diam dictum at. Phasellus vitae lobortis turpis, id pretium diam. Aliquam in laoreet mi, et porta sapien. Nam vitae odio sed eros pharetra ultricies. Ut porttitor convallis ligula, tempus eleifend nulla sollicitudin et. Suspendisse volutpat nibh ac lectus commodo, sed luctus mauris ullamcorper. Vestibulum tempor justo nec porta molestie. Mauris sed sem dapibus arcu euismod semper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In volutpat scelerisque quam, nec ornare ex venenatis in. Duis turpis ante, fringilla sed mattis vitae, volutpat sed odio. Curabitur mauris elit, eleifend non vulputate nec, tincidunt ut mauris. Sed rutrum, tellus in imperdiet bibendum, nisi justo commodo turpis, non pretium enim urna vel leo. Fusce nec consequat ligula.
+
+Nam augue eros, tempus sit amet imperdiet lacinia, vulputate cursus nibh. Mauris non venenatis sapien. Vivamus quis est massa. Sed ultrices augue tempor mauris convallis tincidunt ac eu ligula. Nullam vestibulum molestie accumsan. In aliquet lorem ut mauris suscipit lobortis. Morbi nec luctus tellus. Phasellus tempus lobortis est, vel maximus ex ullamcorper ut. Vestibulum luctus diam sed tellus rutrum condimentum.
+
+Proin rhoncus et orci sed malesuada. Sed quis ligula ligula. In pretium sapien sed arcu laoreet, quis volutpat arcu iaculis. Sed euismod at urna sit amet consectetur. Duis suscipit, risus et tincidunt faucibus, justo neque hendrerit purus, a imperdiet metus diam at mauris. Cras elementum, dolor scelerisque condimentum posuere, neque quam ullamcorper nunc, eget pharetra quam turpis vitae elit. Proin et dui semper risus sollicitudin lobortis. Vivamus ac nisl sagittis, consectetur ante eget, varius est.
+
+Aenean sit amet bibendum nibh. In viverra vitae justo et gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque dictum fermentum iaculis. Cras eget accumsan diam, vel scelerisque metus. Vivamus sit amet sem eu tortor viverra pretium. Integer in luctus risus, eget elementum ligula. In a nisl eu arcu ultricies feugiat ut id augue. Sed eget posuere nisi, eget venenatis eros. Nunc venenatis a sem ut scelerisque. Nunc purus sapien, condimentum quis vulputate eu, blandit in ante. Vestibulum varius imperdiet iaculis.
+    </div>
+  </body>
+</html>

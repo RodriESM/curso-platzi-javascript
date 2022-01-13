@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: red;
+        }
+        
+        h1{
+            color: lightblue;
+        }
+        ol li:nth-child(1){
+            color: red;
+        }
+        #idtest{
+            color: red;
+        }
+        .classtest{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Las reglas en cascada y orden de CSS importa</h1>
+    <ol>
+        <li>!IMPORTANT es lo más importante</li>
+        <li>Los estilos en linea son los siguientes - style=""</li>
+        <li>Los #ID son los siguientes</li>
+        <li>Las clases, atributos y pseudoclases</li>
+        <li>Elementos y pseudoelementos</li>
+        <li>Por último, el selector universal</li>
+    </ol>
+    <p>El que tenga una mayor suma de especificación es el más importante</p>
+    <div id="idtest" class="classtest">Es más importante el ID</div>
+</body>
+</html>

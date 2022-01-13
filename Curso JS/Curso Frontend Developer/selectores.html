@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background: lightblue;
+        }
+        div{
+            background: white;
+        }
+        .titulo{
+            background: lightcoral;
+        }
+        #titulo-2{
+            background: lightgreen;
+        }
+        a[href="etiquetas.html"]{
+            background: lightyellow;
+        }
+        p{
+            color: black;
+        }
+        p::first-letter{
+            color: black;
+        }
+        p::before{
+            content: "🐺";
+        }
+        p:hover{
+            color: red;
+        }
+        div p:nth-child(2)::after{
+            background: lightgreen;
+            content: "🐢";
+        }
+        ::placeholder{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h1>Ejemplo de selectores</h1>
+<div>Ejemplo de selector de elemento</div>
+<div class="titulo">Ejemplo de selectores con titulo</div>
+<div id="titulo-2">Ejemplo de selectores con id</div>
+<a href="etiquetas.html">Ejemplo de selectores de atributo</a>
+<h1><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements">Pseudoclases y pseudoelementos</a> </h1>
+<div>
+    Los pseudo-elementos en CSS son un mecanismo para acceder a partes del HTML que no
+    tienen asociado un nodo en el DOM. Por ejemplo, está claro que una «parte de nuestro documento» podría ser «la primera línea de un párrafo»,
+    «la primera letra de un párrafo» o «la selección que ha hecho el usuario». Pero los pseudo-elementos también son una forma de crear contenido antes o después de un elemento de nuestro DOM a través de CSS.
+<br>
+    Las pseudo-clases de CSS nos permiten seleccionar elementos de nuestra web que,
+    o bien están en un estado concreto, o bien tienen alguna propiedad especial que los hace especiales (valga la redundancia).
+    El ejemplo más habitual (y antiguo) son, probablemente, las pseudo-clases de los enlaces:
+</div>
+<p>¡Hola!</p>
+<div>
+    <p>Soy el número 1</p>
+    <p>Soy el número 2</p>
+</div>
+<input type="text" placeholder="Introduce el nombre" name="" id=""><br>
+<code>
+    También podemos ver a las pseudoclases como estados de algún elemento (con el mouse encima, visitado, activo, etc.) y a los pseudoelementos como elementos que escribimos desde CSS, por ejemplo, el ::after y el ::before nos puedes funcionar como divs, como su nombre lo dice, son elementos, pero no necesariamente están escritos desde el HTML 👀.
+.
+Gracias a las pseudoclases podemos cambiar los estilos de algún elemento cuando sucede algo, por ejemplo, cuando un botón está siendo clicado se activa el pseudoelemento active, entonces nosotros desde CSS podemos cambiar el color del botón a un color más oscuro para dar ese efecto de clicado 😄:
+.
+
+button {
+    color: #1a73e8;
+}
+
+button:active {
+    color: #1557ad;
+}
+.
+Un dato curioso es que también podemos escribir colores usando código hexadecimal como en este caso 👀. Y ahora que ya sabes esto, ¡también podemos combinar pseudoelementos con pseudoclases! Por ejemplo, con el ejemplo de la profesora tenemos esto:
+.
+
+p::before {
+    content: "✨";
+}
+.
+Pero también podríamos agregarle un :hover y cambiar su contenido 👀👇:
+.
+
+p::before {
+    content: "✨";
+}
+
+p:hover::before {
+    content: "💅";
+}
+¡Les reto a probarlo! Hay muchas cosillas más increíbles que se pueden hacer con CSS 😄.
+</code>
+</body>
+</html>
